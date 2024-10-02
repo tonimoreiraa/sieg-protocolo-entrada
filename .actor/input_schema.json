@@ -1,0 +1,23 @@
+{
+    "title": "PuppeteerCrawler Template",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "email": {
+            "title": "E-mail",
+            "type": "string",
+            "description": "Nome de usuário para login",
+            "editor": "textfield",
+            "minLength": 1
+        },
+        "password": {
+            "title": "Senha",
+            "type": "string",
+            "description": "Senha para login",
+            "editor": "textfield",
+            "minLength": 1
+        }
+    },
+    "required": ["email", "password"],
+    "additionalProperties": false
+}

@@ -70,7 +70,7 @@ const crawler = new PuppeteerCrawler({
                 }
     
                 console.log(urls.length)
-                await requestQueue.addRequests(urls.slice(325))
+                await requestQueue.addRequests(urls)
             }
         } else {
             await router({ page, request });
